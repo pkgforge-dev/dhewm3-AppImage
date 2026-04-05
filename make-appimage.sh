@@ -12,6 +12,7 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/org.dhewm3.Dhewm3.svg
 export DESKTOP=/usr/share/applications/org.dhewm3.Dhewm3.desktop
 export STARTUPWMCLASS=dhewm3
 export DEPLOY_OPENGL=1
+export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/dhewm3 /usr/bin/dhewm3ded /usr/lib/dhewm3/*
