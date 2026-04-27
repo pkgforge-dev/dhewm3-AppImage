@@ -17,7 +17,7 @@
 
 </div>
 
-## ⚠️ Place `*.pk4` game assets within `~/.local/share/dhewm3/base` ⚠️
+## ⚠️ Place `*.pk4` assets within `~/.local/share/dhewm3/base` ⚠️
 
 ---
 
