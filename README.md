@@ -18,7 +18,7 @@
 </div>
 
 ## ⚠️ Place `*.pk4` assets within `~/.local/share/dhewm3/base` ⚠️
-** To play expansion game, use ./dhewm3*.AppImage +set fx_game d3xp** 
+** To play expansion game, use `./dhewm3*.AppImage +set fx_game d3xp`** 
 
 ---
 
