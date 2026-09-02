@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/dhewm3-AppImage)](https://github.com/pkgforge-dev/dhewm3-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/dhewm.png" width="128" />
+  <img src="https://raw.githubusercontent.com/dhewm/dhewm3/455b88e8dff2be822f08eb498f51b383e851fa38/dist/linux/share/icons/hicolor/scalable/apps/org.dhewm3.Dhewm3.svg" width="128" />
 </p>
 
 
