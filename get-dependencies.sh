@@ -20,12 +20,12 @@ echo "Building dhewm3..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/dhewm/dhewm3"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
-git clone "$REPO" ./dhewm3
+git clone --depth 1 "$REPO" ./dhewm3
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
 cd ./dhewm3/neo
-cmake -S ./ -B build \
+cmake ./ -B build \
 		-D CMAKE_BUILD_TYPE=Release \
 		-D DEDICATED=ON \
 		-D REPRODUCIBLE_BUILD=ON \
