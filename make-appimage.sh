@@ -14,7 +14,7 @@ export DEPLOY_OPENGL=1
 export DEPLOY_PULSE=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin/*
+quick-sharun ./AppDir/bin/* /usr/lib/libopenal.so*
 # this app has problems with other locales breaking physics
 echo 'LC_ALL=C.UTF-8' >> ./AppDir/.env
 
