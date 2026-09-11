@@ -24,12 +24,11 @@ git clone --depth 1 "$REPO" ./dhewm3
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
-cd ./dhewm3/neo
-cmake ./ -B build \
+cmake -S ./dhewm3/neo -B build \
 		-D CMAKE_BUILD_TYPE=Release \
 		-D DEDICATED=ON \
 		-D REPRODUCIBLE_BUILD=ON \
 		-D SDL2=OFF \
 		-D SDL3=ON
 cmake --build build -j$(nproc)
-mv -v build/dhewm3 build/dhewm3ded build/base.so build/d3xp.so ../../AppDir/bin
+mv -v build/dhewm3 build/dhewm3ded build/base.so build/d3xp.so ./AppDir/bin
